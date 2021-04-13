@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Object_Repository>
+	<Object Name="UST_Page" Type="Browser">
+		<Def Type="ParentObject">
+			<Description />
+		</Def>
+		<Object Name="userName" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='login-form-username']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="userPassword" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='login-form-password']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="loginButton" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='login-form-submit']</xpath>
+				</Description>
+			</Def>
+		</Object>
+
+		<Object Name="editButton" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='edit-issue']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="MoreDropDown" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='opsbar-operations_more']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="cloneLink" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='clone-issue']/a</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="subjectTextfield" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='summary']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="cloneButton" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='clone-issue-submit']</xpath>
+				</Description>
+			</Def>
+		</Object>
+
+		<Object Name="assignVal" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='assignee-val']|//*[@id='assignee-val']/span</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="assignVal_EditButton" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='assignee-val']//span[@class='overlay-icon aui-icon aui-icon-small aui-iconfont-edit']
+					</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="assigneeSelectionDropDown" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='assignee-single-select']//span</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="chooseAutomaticAssigneeOption" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='suggestions']//li/a[contains(.,"Automatic")]
+					</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="updateButton" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='edit-issue-submit' and @value='Update']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="CreatedUSTSummary" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='summary-val']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="AssigneeField" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@id='assignee-field']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="Jenkins_UserIDTF" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@name='j_username']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="Jenkins_UserPasswordTF" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@name='j_password']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="Jenkins_SubmitBtn" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@name='Submit']</xpath>
+				</Description>
+			</Def>
+		</Object>
+		<Object Name="Jenkins_JobparameterTFs" Type="Browser">
+			<Def Type="ChildObject">
+				<Description>
+					<xpath>//*[@class='setting-main']/input</xpath>
+				</Description>
+			</Def>
+		</Object>
+		
+		
+		
+		
+	</Object>
+
+</Object_Repository>

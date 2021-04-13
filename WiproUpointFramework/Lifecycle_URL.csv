@@ -1,0 +1,11 @@
+Environment,Cluster,URL,DV/TU
+CIDEVA -Frontend,LR_TU_CL202,https://l8sida05:9801/web/earth/login,DV
+CIDEVB -Frontend(Earth),LR_TU_CL219,https://l8sita09:9711/web/earth/login,DV
+CIQA -Frontend,LR_TU_CL220,https://l8sita09:9744/web/earth/login,TU
+IntQA -Frontend,LR_TU_CL106,https://l4dridap1273:8446/web/earth/login,TU
+NewIntQA - Frontend,LR_TU_CL154,https://l4sida05:8466/web/earth/login,TU
+UAT -Frontend,LR_TU_CL113,https://l4dridap1274:8453/web/earth/login,TU
+PatchFix -Frontend,LR_TU_CL118,https://l4dridap1274:8448/web/earth/login,TU
+EmergencyPatch -Frontend,LR_TU_CL112,https://l4dridap1273:8452/web/earth/login,TU
+BEN DEV -Frontend,LR_TU_CL217,https://l8sita09:9810/web/retirement4x/login,DV
+BEN QA -Frontend,LR_TU_CL218,https://l8sita09:9430/web/retirement4x/login,DV
